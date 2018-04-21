@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Word Game</title>
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+            <div class="jumbotron">
+                    <h1 class="display-4">Top Billboard Artists of 2000</h1>
+                    <p id="guessesLeft"></p>
+                    <p id="guessedLetters">Letters guessed: </p>
+            </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p id="game"></p> 
+            </div>
+        </div>
+      
+        <div class="row">
+            
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                    <label>Enter a letter to get started!</label><br>
+                    <input id="letter" type="text">
+                    <input id="check" type="button" value="Check">
+                    </div>
+                </form>  
+            </div>
+            <div class="col-md-12">
+                <p id="alert"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!--My Script File-->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
